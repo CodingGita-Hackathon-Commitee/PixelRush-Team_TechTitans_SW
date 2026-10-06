@@ -412,3 +412,14 @@
     width: 100%;
   }
 }
+/* Keep room for the fixed mobile navigation, without a desktop footer gap. */
+.bottom-space {
+  padding-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .bottom-space {
+    padding-bottom: 88px;
+  }
+}
+
